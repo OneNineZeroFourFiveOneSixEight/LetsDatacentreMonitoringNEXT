@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.9'
+        python-version: '3.7'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'letsdatacentremonitoringnext'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_48c1df6a74d144838ca293c9c964b89e }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_6df71f05b351470ba946aa2a29fd954f }}
